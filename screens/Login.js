@@ -10,6 +10,11 @@ export default function Login(props){
               color="#841584"
               onPress={()=>{console.log('Hello Gabriel')}}
             />
+            <Button
+              title="McKenna"
+              color="#FF5733"
+              onPress={()=>{console.log('Hello McKenna')}}
+            />
         </View>
     );
 }

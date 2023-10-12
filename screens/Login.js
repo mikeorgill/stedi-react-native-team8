@@ -5,13 +5,14 @@ export default function Login(props){
     return(
         <View style={styles.login}>
             <Text>This is the Login Screen</Text>
-            <Button title="Log In" onPress={()=>{}}></Button>
+            <Button
+              title="Gabriel"
+              color="#841584"
+              onPress={()=>{console.log('Hello Gabriel')}}
+            />
         </View>
-
     );
 }
-
-
 
 const styles = StyleSheet.create({
     login: {
@@ -24,8 +25,5 @@ const styles = StyleSheet.create({
         paddingBottom: 5,
         paddingLeft: 10,
         paddingRight: 10,
-        
       },
 })
-
-

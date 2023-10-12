@@ -8,27 +8,27 @@ export default function Login(props){
             <Button
               title="Gabriel"
               color="#841584"
-              onPress={()=>{console.log('Hello Gabriel')}}
+              onPress={()=>{alert('Hello Gabriel')}}
             />
             <Button
               title="McKenna"
               color="#FF5733"
-              onPress={()=>{console.log('Hello McKenna')}}
+              onPress={()=>{alert('Hello McKenna')}}
             />
             <Button
               title="Michael"
               color="pink"
-              onPress={()=>{console.log('Hello Michael')}}
+              onPress={()=>{alert('Hello Michael')}}
             />
             <Button
               title="Amanda"
               color="yellow"
-              onPress={()=>{console.log('Hello Amanda')}}
+              onPress={()=>{alert('Hello Amanda')}}
             />
             <Button
               title="Mike"
               color="#1CCACE"
-              onPress={()=>{console.log('Hello Mike')}}
+              onPress={()=>{alert('Hello Mike')}}
             />
         </View>    
     );

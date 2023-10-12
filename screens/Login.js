@@ -4,31 +4,36 @@ import {StyleSheet, View, Text, Button} from 'react-native';
 export default function Login(props){
     return(
         <View style={styles.login}>
-            <Text>Login Screen</Text>
+            <Text>Login</Text>
             <Button
               title="Gabriel"
               color="#841584"
               onPress={()=>{alert('Hello Gabriel')}}
+              style={{ display: 'block' }}
             />
             <Button
               title="McKenna"
               color="#FF5733"
               onPress={()=>{alert('Hello McKenna')}}
+              style={{ display: 'block' }}
             />
             <Button
               title="Michael"
               color="pink"
               onPress={()=>{alert('Hello Michael')}}
+              style={{ display: 'block' }}
             />
             <Button
               title="Amanda"
               color="yellow"
               onPress={()=>{alert('Hello Amanda')}}
+              style={{ display: 'block' }}
             />
             <Button
               title="Mike"
               color="#1CCACE"
               onPress={()=>{alert('Hello Mike')}}
+              style={{ display: 'block' }}
             />
         </View>    
     );

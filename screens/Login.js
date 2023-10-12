@@ -4,7 +4,7 @@ import {StyleSheet, View, Text, Button} from 'react-native';
 export default function Login(props){
     return(
         <View style={styles.login}>
-            <Text>This is the Login Screen</Text>
+            <Text>Login Screen</Text>
             <Button
               title="Gabriel"
               color="#841584"
